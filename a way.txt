@@ -1,0 +1,43 @@
+Nchandan@Zzet MINGW64 ~/OneDrive/Desktop/New folder (2)
+$ git init
+Initialized empty Git repository in C:/Users/CHANDAN KUMAR/OneDrive/Desktop/New folder (2)/.git/
+
+Nchandan@Zzet MINGW64 ~/OneDrive/Desktop/New folder (2) (master)
+$ dir
+New\ Text\ Document.txt
+
+Nchandan@Zzet MINGW64 ~/OneDrive/Desktop/New folder (2) (master)
+$ git add . New\ Text\ Document.txt
+
+Nchandan@Zzet MINGW64 ~/OneDrive/Desktop/New folder (2) (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   New Text Document.txt
+
+
+Nchandan@Zzet MINGW64 ~/OneDrive/Desktop/New folder (2) (master)
+$ git commit -m "Intial git command"
+[master (root-commit) 0129d92] Intial git command
+ 1 file changed, 1 insertion(+)
+ create mode 100644 New Text Document.txt
+
+Nchandan@Zzet MINGW64 ~/OneDrive/Desktop/New folder (2) (master)
+$ git remote add origin https://github.com/Chandan-Kumar-Vanamala/demoooo.git
+
+Nchandan@Zzet MINGW64 ~/OneDrive/Desktop/New folder (2) (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 248 bytes | 248.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Chandan-Kumar-Vanamala/demoooo.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+Nchandan@Zzet MINGW64 ~/OneDrive/Desktop/New folder (2) (master)
+$
